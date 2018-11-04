@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from ReviewRanker.urls import urlpatterns as review_url_patterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+urlpatterns += review_url_patterns

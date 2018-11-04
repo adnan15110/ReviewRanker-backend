@@ -1,0 +1,9 @@
+Django==2.1.2
+psycopg2==2.7.1
+pytz==2018.7
+djangorestframework==3.9.0
+markdown==3.0.1
+django-filter==2.0.0
+ipython
+ipdb
+django-cors-headers==2.4.0
