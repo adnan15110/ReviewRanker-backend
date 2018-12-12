@@ -7,3 +7,7 @@ django-filter==2.0.0
 ipython
 ipdb
 django-cors-headers==2.4.0
+plotly
+numpy
+scipy
+pandas

@@ -32,6 +32,7 @@ class Command(BaseCommand):
                     review_obj.reviewer_name = review_name_parts[0]
                     review_obj.asin=review['asin']
                     review_obj.review_text=review['reviewText']
+                    review_obj.helpful = review['helpful'][1]
                     review_obj.overall_rating = review['overall']
                     review_obj.summary = review['summary']
                     review_obj.unix_review_time = review['unixReviewTime']
